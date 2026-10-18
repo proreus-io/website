@@ -5,18 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Proreus</title>
   <meta name="description" content="A Kubernetes-native platform for personal and team AI agents.">
+  <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/favicon-16.png" sizes="16x16" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <style>
     :root { color-scheme: light dark; }
     body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 20vh auto; padding: 0 1.5rem; line-height: 1.5; }
-    h1 { margin-bottom: 0.25rem; }
+    h1 { margin: 0 0 1rem; }
+    h1 img { height: 3.5rem; width: auto; display: block; }
     p.lead { font-size: 1.15rem; margin-top: 0; }
     footer { margin-top: 3rem; font-size: 0.9rem; opacity: 0.7; }
   </style>
 </head>
 <body>
-  <h1>Proreus</h1>
+  <h1>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="/logo/proreus-horizontal-white.svg">
+      <img src="/logo/proreus-horizontal-color.svg" alt="Proreus" width="334" height="64">
+    </picture>
+  </h1>
   <p class="lead">A Kubernetes-native platform for personal and team AI agents.</p>
   <p>Proreus is in early development. Documentation will appear here.</p>
-  <footer>Apache-2.0 · <a href="https://github.com/proreus-io">github.com/proreus-io</a></footer>
+  <footer>Apache-2.0 · logo CC-BY-4.0 · <a href="https://github.com/proreus-io">github.com/proreus-io</a></footer>
 </body>
 </html>
